@@ -1,0 +1,664 @@
+*{
+    box-sizing: border-box;
+    margin: 0vw;
+    max-width: 100%;
+}
+.tochci{
+    text-decoration: none;
+}
+
+/*introduction page*/
+.introduction{
+    width: 100vw;
+    height: 50vw;
+
+}
+.introduction-intro{
+    width: 100vw;
+    height: 50vw;
+}
+.introduction-logo{
+    width: 60vw;
+    height: 15vw;
+    position: absolute;
+    left: 20vw;
+    top: 0vw;
+}
+.introduction-text{
+    position: absolute;
+    width: 90vw;
+    height: 10vw;
+    font-size: 4vw;
+    left: 5vw;
+    top: 40vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/*launch page*/
+.launch{
+    width: 100vw;
+    height: 50vw;
+}
+.launch-car{
+    width: 100vw;
+    height: 50vw;
+}
+.launch-slogan{
+    position: absolute;
+    font-size: 3vw;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    left: 5vw;
+    top: 55vw;
+    width: 50vw;
+}
+.launch-text{
+    position: absolute;
+    font-size: 2vw;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    width: 28vw;
+    left: 70vw;
+    top: 70vw;
+}
+
+/*performance*/
+.performance{
+    width: 100vw;
+    height: 60vw;
+}
+.performance-car{
+    width: 100vw;
+    height: 60vw;
+}
+.performance-slogan{
+    position: absolute;
+    font-size: 3vw;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    left: 45vw;
+    top: 105vw;
+    width: 50vw;
+}
+.performance-text{
+    position: absolute;
+    font-size: 2vw;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    width: 30vw;
+    left: 5vw;
+    top: 115vw;
+}
+.white{
+    color: white;
+    display: inline;
+}
+.black{
+    color: black;
+    display: inline;
+}
+.performance-tochci{
+    background-color: rgb(77,21,30);
+    color: white;
+    border: 0.3vw solid white;
+    position: absolute;
+    left: 5vw;
+    top: 128vw;
+    width: 25vw;
+    font-size: 2.5vw;
+    text-align: center;
+    border-radius: 0.8vw;
+    height: 6vw;
+    padding-top: 1.3vw;
+}
+
+/*basic*/
+.basic{
+    width: 100vw;
+    height: 50vw;
+}
+.basic-car{
+    width: 100vw;
+    height: 50vw;
+}
+.basic-slogan{
+    position: absolute;
+    font-size: 3vw;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    left: 5vw;
+    top: 165vw;
+    width: 50vw;
+}
+.basic-text{
+    position: absolute;
+    font-size: 2vw;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    width: 30vw;
+    left: 5vw;
+    top: 180vw;
+}
+.basic-tochci{
+    background-color: rgb(63,71,79);
+    color: white;
+    border: 0.3vw solid white;
+    position: absolute;
+    left: 5vw;
+    top: 193vw;
+    width: 25vw;
+    font-size: 2.5vw;
+    text-align: center;
+    border-radius: 0.8vw;
+    height: 6vw;
+    padding-top: 1.3vw;
+}
+
+/*reasons*/
+.reasons{
+    width: 100vw;
+    height: 35vw;
+    background-color: rgb(164,46,46);
+}
+
+.reasons-heading{
+    position: absolute;
+    font-size: 4vw;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    left: 20vw;
+    top: 212vw;
+    width: 60vw;
+    text-align: center;
+}
+.reasons-text{
+    position: absolute;
+    font-size: 2vw;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    width: 80vw;
+    left: 10vw;
+    top: 219vw;
+    text-align: center;
+}
+.reason{
+    margin-bottom: 1.5vw;
+}
+
+/*price*/
+.price{
+    width: 100vw;
+    height: 8vw;
+    background-color: black;
+}
+.price{
+    padding-top: 2.5vw;
+    position: absolute;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    top: 245vw;
+    width: 100vw;
+    text-align: center;
+}
+
+/*choice*/
+.choice{
+    top: 253vw;
+    position: absolute;
+    display: grid;
+    width: 100vw;
+    height: 37vw;
+    background-color: white;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas:
+    "choice-black choice-white"
+  }
+.choice-black{grid-area: choice-black;}
+.choice-white{grid-area: choice-white;}
+.choice-text-white{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.choice-text-black{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.choice-black{
+    margin: 2vw 6vw 2vw 11vw;
+    background-color: white;
+    padding: 1.5vw;
+    width: 33vw;
+    height: 28vw;
+    border: 0.3vw solid rgb(51,51,51);
+}
+.choice-white{
+    background-color: rgb(51,51,51);
+    margin: 2vw 11vw 2vw 6vw;
+    padding: 1.5vw;
+    width: 33vw;
+    height: 28vw;
+    border: 0.3vw solid rgb(51,51,51);
+}
+.choice-car-black{
+    width: 30vw;
+    height: 20vw;
+}
+.choice-car-white{
+    width: 30vw;
+    height: 20vw;
+}
+.choice-black-tochci{
+    text-decoration: none;
+    color: black;
+}
+.choice-white-tochci{
+    text-decoration: none;
+    color: white;
+}
+
+/*driver*/
+.driver{
+    position: absolute;
+    top: 290vw;
+    width: 100vw;
+    height: 35vw;
+}
+.driver-heading{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold;
+    width: 100vw;
+    height: 11vw;
+}
+.driver-slogan{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 3vw;
+    text-align: center;
+    width: 100vw;
+    height: 8vw;
+}
+.driver-text{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 2vw;
+    text-align: center;
+    width: 100vw;
+    height: 8vw;
+}
+.driver-tochci{
+    background-color: black;
+    color: white;
+    border: 0.3vw solid white;
+    position: absolute;
+    left: 37.5vw;
+    top: 28vw;
+    width: 25vw;
+    font-size: 2.5vw;
+    text-align: center;
+    border-radius: 0.8vw;
+    height: 8.5vw;
+    padding-top: 2.5vw;
+}
+
+/*passenger*/
+.passenger{
+    padding-top: 6vw;
+    position: absolute;
+    top: 330vw;
+    width: 100vw;
+    height: 48vw;
+    background-color: black;
+}
+.passenger-heading{
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold;
+    width: 100vw;
+    height: 11vw;
+}
+.passenger-slogan{
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 3vw;
+    text-align: center;
+    width: 100vw;
+    height: 8vw;
+}
+.passenger-text{
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 2vw;
+    text-align: center;
+    width: 100vw;
+    height: 8vw;
+}
+.passenger-tochci{
+    background-color: white;
+    color: black;
+    border: 0.3vw solid white;
+    position: absolute;
+    left: 37.5vw;
+    top: 35vw;
+    width: 25vw;
+    font-size: 2.5vw;
+    text-align: center;
+    border-radius: 0.8vw;
+    height: 8.5vw;
+    padding-top: 2.5vw;
+}
+
+/*gallery*/
+.gallery{
+    top: 378vw;
+    position: absolute;
+    padding: 1vw;
+    display: grid;
+    width: 100vw;
+    height: 41.25vw;
+    grid-row-gap: 1.25vw;
+    grid-column-gap: 1.25vw;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "gallery-img-1 gallery-img-2 gallery-img-3"
+    "gallery-img-4 gallery-img-5 gallery-img-6"
+}
+.gallery-img-1{grid-area: gallery-img-1;}
+.gallery-img-2{grid-area: gallery-img-2;}
+.gallery-img-3{grid-area: gallery-img-3;}
+.gallery-img-4{grid-area: gallery-img-4;}
+.gallery-img-5{grid-area: gallery-img-5;}
+.gallery-img-6{grid-area: gallery-img-6;}
+.gallery-images{
+    height: 19vw;
+    width: 32vw;
+}
+.gallery-img-1{
+    height: 19vw;
+    width: 32vw;
+}
+.gallery-img-2{
+    height: 19vw;
+    width: 32vw;
+}
+.gallery-img-3{
+    height: 19vw;
+    width: 32vw;
+}
+.gallery-img-4{
+    height: 19vw;
+    width: 32vw;
+}
+.gallery-img-5{
+    height: 19vw;
+    width: 32vw;
+}
+.gallery-img-6{
+    height: 19vw;
+    width: 32vw;
+}
+
+/*registration*/
+.registration{
+    width: 100vw;
+    height: 69vw;
+    background-color: black;
+    top: 419.25vw;
+    position: absolute;
+}
+.registration-heading{
+    width: 100vw;
+    height: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    padding: 1vw;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.registration-inputik{
+    width: 55vw;
+    height: 3vw;
+    margin-bottom: 0.5vw;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    border: 0.3vw solid white;
+    padding-left: 2vw;
+}
+.registration-jmeno, .registration-prijmeni, .registration-adresa, .registration-telefon, .registration-email{
+    display: flex;
+    justify-content: center;
+}
+.registration-datum{
+    display: flex;
+    justify-content: center;
+    top: 44vw;
+    width: 100vw;
+    position: absolute;
+}
+.registration-driver{
+    border: 0.3vw solid white;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+    width: 27.5vw;
+    top: 29vw;
+    height: 5vw;
+    left: 22.5vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+.registration-passenger{
+    border: 0.3vw solid white;
+    font-size: 2vw;
+    width: 27.5vw;
+    top: 29vw;
+    height: 5vw;
+    right: 22.5vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+.registration-performance{
+    border: 0.3vw solid white;
+    font-size: 1.8vw;
+    width: 27.5vw;
+    top: 36vw;
+    height: 5vw;
+    left: 22.5vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+.registration-basic{
+    border: 0.3vw solid white;
+    background-color: black;
+    color: white;
+    font-size: 1.8vw;
+    width: 27.5vw;
+    top: 36vw;
+    height: 5vw;
+    right: 22.5vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+.registration-driver:hover {
+    background-color: gray;
+}  
+.registration-driver:active {
+    background-color: darkgray;
+}  
+.registration-passenger:hover {
+    background-color: gray;
+}  
+.registration-passenger:active {
+    background-color: darkgray;
+}  
+.registration-performance:hover {
+    background-color: gray;
+}  
+.registration-performance:active {
+    background-color: darkgray;
+}  
+.registration-basic:hover {
+    background-color: gray;
+}  
+.registration-basic:active {
+    background-color: darkgray;
+}  
+.registration-place1{
+    border: 0.3vw solid white;
+    background-color: black;
+    color: white;
+    width: 18.3vw;
+    height: 6vw;
+    top: 49vw;
+    left: 22.5vw;
+    position: absolute;
+    font-size: 2vw;
+}
+.registration-place2{
+    border: 0.3vw solid white;
+    width: 18.3vw;
+    height: 6vw;
+    top: 49vw;
+    left: 40.8vw;
+    position: absolute;
+    font-size: 2vw;
+}
+.registration-place3{
+    border: 0.3vw solid white;
+    width: 18.3vw;
+    height: 6vw;
+    top: 49vw;
+    left: 59.2vw;
+    position: absolute;
+    font-size: 2vw;
+}
+.registration-place1:hover {
+    background-color: gray;
+}  
+.registration-place1:active {
+    background-color: darkgray;
+}  
+.registration-place2:hover {
+    background-color: gray;
+}  
+.registration-place2:active {
+    background-color: darkgray;
+}  
+.registration-place3:hover {
+    background-color: gray;
+}  
+.registration-place3:active {
+    background-color: darkgray;
+}    
+.registration-price{
+    color: white;
+    font-size: 3.5vw;
+    padding: 0.25vw;
+    text-align: center;
+    width: 100vw;
+    height: 4vw;
+    top: 56vw;
+    position: absolute;
+}
+.registration-order{
+    position: absolute;
+    top: 62vw;
+    width: 30vw;
+    height: 5vw;
+    font-size: 2.5vw;
+    padding: 0.75vw;
+    left: 35vw;
+}
+
+/*questions*/
+.questions{
+    background-color: white;
+    position: absolute;
+    top: 488.25vw;
+    width: 100vw;
+    height: 40vw;
+}
+.questions-heading{
+    width: 100vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    height: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    text-align: center;
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.questions-inputik{
+    width: 55vw;
+    height: 3vw;
+    margin-bottom: 0.5vw;
+    font-size: 1.5vw;
+    border: 0.3vw solid black;
+    color: black;
+    padding-left: 2vw;
+}
+.questions-inputik-text{
+    width: 55vw;
+    height: 20vw;
+    margin-bottom: 0.5vw;
+    font-size: 1.5vw;
+    border: 0.3vw solid black;
+    color: black;
+    padding-left: 2vw;
+}
+.questions-jmeno, .questions-email, .questions-message, .questions-order{
+    display: flex;
+    justify-content: center;
+}
+.questions-order{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 39vw;
+    width: 30vw;
+    height: 5vw;
+    font-size: 2.5vw;
+    padding: 0.75vw;
+    left: 35vw;
+}
+
+/*footer*/
+footer{
+    position: absolute;
+    top: 533.25vw;
+    width: 100vw;
+    height: 10vw;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+    padding: 4vw;
+    text-align: center;
+}
